@@ -1,0 +1,57 @@
+/* add_news.css */
+
+/* Стили для заголовка формы */
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+
+  margin-top: 20px;
+
+}
+
+/* Стили для формы */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Стили для блока с полями формы */
+.form-block {
+  margin-bottom: 20px;
+}
+
+/* Стили для меток полей */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Стили для полей ввода */
+input[type="text"],
+input[type="url"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Стили для кнопки отправки формы */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+
+/* Стили для кнопки отправки формы при наведении */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
